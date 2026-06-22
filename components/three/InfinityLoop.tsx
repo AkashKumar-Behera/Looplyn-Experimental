@@ -89,11 +89,11 @@ export default function InfinityLoop() {
       {/* Solid emissive Möbius body */}
       <mesh ref={meshRef} geometry={geometry} castShadow receiveShadow>
         <meshStandardMaterial
-          color="#2a1a4a"
-          emissive="#8b5cf6"
-          emissiveIntensity={0.55}
+          color="#2a0d05"
+          emissive="#ff2a00"
+          emissiveIntensity={0.6}
           metalness={0.85}
-          roughness={0.25}
+          roughness={0.22}
           side={THREE.DoubleSide}
           envMapIntensity={1.2}
         />
@@ -102,10 +102,10 @@ export default function InfinityLoop() {
       {/* Glowing wireframe overlay for the "energy" look */}
       <mesh geometry={geometry} scale={1.005}>
         <meshBasicMaterial
-          color="#c4b5fd"
+          color="#ff6a4a"
           wireframe
           transparent
-          opacity={0.12}
+          opacity={0.14}
           side={THREE.DoubleSide}
         />
       </mesh>

@@ -8,25 +8,25 @@ export default function AmbientLights() {
   return (
     <>
       {/* Soft fill so the scene never goes fully black */}
-      <ambientLight intensity={0.35} color="#1a1a2e" />
+      <ambientLight intensity={0.3} color="#1a0a06" />
 
-      {/* Key light — cool white from upper front */}
+      {/* Key light — warm white from upper front */}
       <directionalLight
         position={[4, 6, 5]}
-        intensity={1.6}
-        color="#ffffff"
+        intensity={1.5}
+        color="#fff3ee"
         castShadow
         shadow-mapSize={[1024, 1024]}
       />
 
-      {/* Purple rim light from behind for the signature glow edge */}
-      <directionalLight position={[-6, -2, -4]} intensity={2.4} color="#8b5cf6" />
+      {/* Red rim light from behind for the signature glow edge */}
+      <directionalLight position={[-6, -2, -4]} intensity={2.6} color="#ff2a00" />
 
-      {/* Secondary magenta accent */}
-      <pointLight position={[-3, 3, 4]} intensity={30} color="#a855f7" distance={20} decay={2} />
+      {/* Secondary ember accent */}
+      <pointLight position={[-3, 3, 4]} intensity={32} color="#ff4d2d" distance={20} decay={2} />
 
       {/* Bottom bounce */}
-      <pointLight position={[0, -4, 2]} intensity={12} color="#7c3aed" distance={16} decay={2} />
+      <pointLight position={[0, -4, 2]} intensity={12} color="#ff6a4a" distance={16} decay={2} />
     </>
   );
 }

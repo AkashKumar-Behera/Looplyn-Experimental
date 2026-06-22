@@ -19,8 +19,8 @@ export default function ContactScene() {
     >
       <Suspense fallback={null}>
         <AmbientLights />
-        <ParticleField count={900} radius={9} size={0.045} speed={0.6} color="#8b5cf6" />
-        <ParticleField count={400} radius={6} size={0.025} speed={1.2} color="#c4b5fd" />
+        <ParticleField count={900} radius={9} size={0.045} speed={0.6} color="#ff2a00" />
+        <ParticleField count={400} radius={6} size={0.025} speed={1.2} color="#ff6a4a" />
         <AdaptiveDpr pixelated />
       </Suspense>
     </Canvas>

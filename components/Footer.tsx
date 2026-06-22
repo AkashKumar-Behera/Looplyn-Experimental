@@ -7,11 +7,11 @@ export default function Footer() {
         <div className="flex flex-col items-start justify-between gap-10 sm:flex-row">
           <div className="max-w-sm">
             <div className="flex items-center gap-2">
-              <span className="h-3.5 w-3.5 rounded-full bg-gradient-to-tr from-primary to-secondary" />
+              <span className="h-3.5 w-3.5 rounded-full bg-gradient-to-tr from-accent to-accent-highlight" />
               <span className="text-lg font-semibold tracking-tight">LOOPLYN</span>
             </div>
             <p className="mt-4 text-sm text-muted">
-              Where brands get seen. A premium growth studio for ambitious teams.
+              Where brands get seen. A cinematic growth studio for ambitious teams.
             </p>
           </div>
 

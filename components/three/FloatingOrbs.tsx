@@ -21,11 +21,11 @@ export default function FloatingOrbs() {
 
   const orbs = useMemo<Orb[]>(
     () => [
-      { position: [3.4, 1.6, -2], scale: 0.28, speed: 0.6, offset: 0, color: "#8b5cf6" },
-      { position: [-3.6, -1.2, -1], scale: 0.18, speed: 0.9, offset: 1.5, color: "#a855f7" },
-      { position: [2.6, -2, -3], scale: 0.22, speed: 0.5, offset: 3, color: "#7c3aed" },
-      { position: [-2.8, 2.2, -2.5], scale: 0.14, speed: 1.1, offset: 4.2, color: "#c4b5fd" },
-      { position: [0.6, 2.8, -3.5], scale: 0.2, speed: 0.7, offset: 2.1, color: "#9333ea" },
+      { position: [3.4, 1.6, -2], scale: 0.28, speed: 0.6, offset: 0, color: "#ff2a00" },
+      { position: [-3.6, -1.2, -1], scale: 0.18, speed: 0.9, offset: 1.5, color: "#ff4d2d" },
+      { position: [2.6, -2, -3], scale: 0.22, speed: 0.5, offset: 3, color: "#ff2a00" },
+      { position: [-2.8, 2.2, -2.5], scale: 0.14, speed: 1.1, offset: 4.2, color: "#ff6a4a" },
+      { position: [0.6, 2.8, -3.5], scale: 0.2, speed: 0.7, offset: 2.1, color: "#ff4d2d" },
     ],
     []
   );

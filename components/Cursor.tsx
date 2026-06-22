@@ -65,7 +65,7 @@ export default function Cursor() {
         animate={{
           width: hovering ? 64 : 36,
           height: hovering ? 64 : 36,
-          borderColor: hovering ? "#a855f7" : "#ffffff",
+          borderColor: hovering ? "#FF2A00" : "#ffffff",
         }}
         transition={{ type: "spring", stiffness: 260, damping: 22 }}
       >

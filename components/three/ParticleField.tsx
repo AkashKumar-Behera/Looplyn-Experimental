@@ -21,7 +21,7 @@ export default function ParticleField({
   count = 600,
   radius = 6,
   size = 0.035,
-  color = "#a855f7",
+  color = "#ff4d2d",
   speed = 1,
 }: ParticleFieldProps) {
   const pointsRef = useRef<THREE.Points>(null);
@@ -49,8 +49,8 @@ export default function ParticleField({
     const ctx = canvas.getContext("2d")!;
     const g = ctx.createRadialGradient(32, 32, 0, 32, 32, 32);
     g.addColorStop(0, "rgba(255,255,255,1)");
-    g.addColorStop(0.3, "rgba(196,181,253,0.8)");
-    g.addColorStop(1, "rgba(139,92,246,0)");
+    g.addColorStop(0.3, "rgba(255,106,74,0.8)");
+    g.addColorStop(1, "rgba(255,42,0,0)");
     ctx.fillStyle = g;
     ctx.fillRect(0, 0, 64, 64);
     const tex = new THREE.CanvasTexture(canvas);

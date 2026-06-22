@@ -50,8 +50,8 @@ export default function MagneticButton({
     "relative inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-medium tracking-wide transition-colors duration-300 will-change-transform";
   const styles =
     variant === "primary"
-      ? "bg-primary text-white hover:bg-secondary glow-purple"
-      : "border border-white/15 text-white hover:border-white/40 bg-white/[0.02]";
+      ? "bg-accent text-black hover:bg-accent-highlight glow-accent"
+      : "border border-accent/25 text-white hover:border-accent/60 bg-white/[0.02]";
 
   const Inner = (
     <motion.div
