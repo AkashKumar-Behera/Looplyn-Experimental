@@ -74,14 +74,17 @@ export default function VideoIntro() {
           style={{ background: "radial-gradient(120% 90% at 50% 50%, transparent 45%, #050505 100%)" }}
         />
 
-        {/* HUD */}
+        {/* HUD — REC + timecode + corner frame markers only */}
         <div className="absolute left-6 top-[10vh] z-30">
           <RecIndicator />
         </div>
-        <div className="absolute right-6 top-[10vh] z-30 flex items-center gap-3 font-mono-tc text-[11px] uppercase tracking-[0.2em] text-white/60">
-          <span>4K · 24FPS</span>
+        <div className="absolute right-6 top-[10vh] z-30">
           <Timecode />
         </div>
+        <span className="pointer-events-none absolute left-6 top-[9vh] z-30 h-7 w-7 border-l border-t border-white/30" />
+        <span className="pointer-events-none absolute right-6 top-[9vh] z-30 h-7 w-7 border-r border-t border-white/30" />
+        <span className="pointer-events-none absolute bottom-[9vh] left-6 z-30 h-7 w-7 border-b border-l border-white/30" />
+        <span className="pointer-events-none absolute bottom-[9vh] right-6 z-30 h-7 w-7 border-b border-r border-white/30" />
 
         {/* overlay copy */}
         <div className="intro-copy absolute inset-0 z-20 flex flex-col items-center justify-center px-6 text-center">

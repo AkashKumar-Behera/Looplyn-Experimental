@@ -29,7 +29,7 @@ export default function ServicesReveal() {
   const current = SERVICES[active];
 
   return (
-    <section id="services" className="relative py-28 sm:py-40">
+    <section id="services" className="relative py-28 sm:py-36">
       <div className="mx-auto max-w-7xl px-6">
         <Reveal className="mb-16 flex items-end justify-between gap-6">
           <div>

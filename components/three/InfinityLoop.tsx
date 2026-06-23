@@ -85,7 +85,7 @@ export default function InfinityLoop() {
   });
 
   return (
-    <group ref={groupRef} scale={1.05}>
+    <group ref={groupRef} scale={0.74}>
       {/* Solid emissive Möbius body */}
       <mesh ref={meshRef} geometry={geometry} castShadow receiveShadow>
         <meshStandardMaterial

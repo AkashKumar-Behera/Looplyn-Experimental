@@ -14,9 +14,11 @@ import Footer from "@/components/Footer";
 import Splash from "@/components/sections/Splash";
 import VideoIntro from "@/components/sections/VideoIntro";
 import Hero from "@/components/sections/Hero";
+import ReadingExperience from "@/components/sections/ReadingExperience";
 import BrandStory from "@/components/sections/BrandStory";
 import ServicesReveal from "@/components/sections/ServicesReveal";
 import ImageStack from "@/components/sections/ImageStack";
+import WorkWall from "@/components/sections/WorkWall";
 import VideoWall from "@/components/sections/VideoWall";
 import ProcessTimeline from "@/components/sections/ProcessTimeline";
 import CaseStudyScroll from "@/components/sections/CaseStudyScroll";
@@ -57,9 +59,11 @@ export default function Experience() {
           <main className="relative">
             <VideoIntro />
             <Hero />
+            <ReadingExperience />
             <BrandStory />
             <ServicesReveal />
             <ImageStack />
+            <WorkWall />
             <VideoWall />
             <ProcessTimeline />
             <CaseStudyScroll />

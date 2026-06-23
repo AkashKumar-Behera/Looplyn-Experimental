@@ -62,7 +62,7 @@ export default function BrandStory() {
   }, []);
 
   return (
-    <section id="story" ref={root} className="relative py-28 sm:py-40">
+    <section id="story" ref={root} className="relative py-28 sm:py-36">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 flex items-center justify-between">
           <p className="font-mono-tc text-xs uppercase tracking-[0.3em] text-accent">

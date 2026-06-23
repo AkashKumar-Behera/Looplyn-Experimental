@@ -19,15 +19,15 @@ export default function VideoWall() {
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
-    <section id="work" className="relative py-28 sm:py-36">
+    <section className="relative py-28 sm:py-36">
       <div className="mx-auto max-w-7xl px-6">
         <Reveal className="mb-14 flex items-end justify-between gap-6">
           <div>
             <p className="mb-4 font-mono-tc text-xs uppercase tracking-[0.3em] text-accent">
-              04 — Selected Work
+              04 — The Reel
             </p>
             <h2 className="text-4xl font-bold leading-tight tracking-tight sm:text-6xl">
-              The reel
+              In motion
             </h2>
           </div>
           <RecIndicator label="9 films" className="hidden sm:flex" />
